@@ -23,7 +23,7 @@
 MMKV_NAMESPACE_BEGIN
 
 #ifdef MMKV_DEBUG
-MMKVLogLevel g_currentLogLevel = MMKVLogDebug;
+MMKVLogLevel g_currentLogLevel = MMKVLogError;
 #else
 MMKVLogLevel g_currentLogLevel = MMKVLogInfo;
 #endif
